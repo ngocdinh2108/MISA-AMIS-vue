@@ -1,28 +1,33 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="wrap-body">
+    <!-- Component sidebar -->
+    <the-sidebar></the-sidebar>
+    <!-- Phần nội dung bên phải bao gồm header và content -->
+    <div class="wrap-right">
+      <!-- Component header -->
+      <the-header></the-header>
+      <!-- Component content -->
+      <the-content></the-content>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheContent from './components/layouts/TheContent.vue'
+import TheHeader from './components/layouts/TheHeader.vue'
+import TheSidebar from './components/layouts/TheSidebar.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TheSidebar,
+    TheHeader,
+    TheContent
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url("./css/main.css");
+@import url("./css/icon.css");
 </style>

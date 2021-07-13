@@ -1,0 +1,60 @@
+.sum-record-option {
+    border: 1px solid #bbbbbb;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    height: 32px;
+}
+
+.sum-record-selected {
+    margin-right: 12px;
+}
+
+.sum-record-option-icon {
+    padding: 14px;
+}
+
+.sum-record-option-icon:hover {
+    background-color: #b8bcc3;
+    cursor: pointer;
+}
+
+.footer-paging {
+    display: flex;
+    align-items: center;
+    margin: 0 16px;
+}
+
+.footer-paging-prev {
+    margin-right: 16px;
+}
+
+.footer-paging-prev:hover {
+    cursor: pointer;
+}
+
+.footer-paging-next {
+    margin-left: 16px;
+}
+
+.footer-paging-next:hover {
+    cursor: pointer;
+}
+
+.footer-paging-number {
+    margin: 0 6px;
+}
+
+.footer-paging-three-dots {
+    margin: 0 6px;
+}
+
+.footer-paging-number:hover {
+    cursor: pointer;
+}
+
+.footer-paging-selected {
+    border: 1px solid #e0e0e0;
+    padding: 0 6px;
+    font-family: 'notosans-bold';
+}

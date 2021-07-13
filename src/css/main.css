@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+    font-family: 'Notosans-Regular';
+    font-size: 13px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.wrap-body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrap-right {
+    height: 100%;
+    width: calc(100% - 180px);
+}
+
+@font-face {
+    font-family: 'Notosans-Bold';
+    src: url('../assets/fonts/notosans-bold.3ede5aff.woff2') format('opentype');
+}
+
+@font-face {
+    font-family: 'Notosans-Italic';
+    src: url('../assets/fonts/notosans-italic.1c1aaac9.woff2') format('opentype');
+}
+
+@font-face {
+    font-family: 'Notosans-Regular';
+    src: url('../assets/fonts/notosans-regular.2cb88a13.woff2') format('opentype');
+}
+
+@font-face {
+    font-family: 'Notosans-Semibold';
+    src: url('../assets/fonts/notosans-semibold.df3e6dc4.woff2') format('opentype');
+}
+
+.m-checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+.m-checkbox:hover {
+    cursor: pointer;
+}
+
+.m-input {
+    border: none;
+    font-family: 'Notosans-Italic';
+    outline: none;
+}
+
+.m-btn {
+    height: 20px;
+    padding: 8px 20px;
+    font-size: 13px;
+    line-height: 20px;
+    border-radius: 5px;
+    font-family: 'Notosans-Bold';
+}
+
+.m-btn:hover {
+    cursor: pointer;
+}
+
+.m-align-center {
+    text-align: center;
+}
+
+.m-align-right {
+    text-align: right;
+}
+
+.column-fixed-left {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background-color: #ffffff;
+}
+
+.check-all {
+    background-color: #eceef1;
+    z-index: 3;
+}
+
+.column-fixed-right {
+    position: sticky;
+    right: 0;
+    z-index: 2;
+    background-color: #ffffff;
+    border-left: 1px dotted #bbbbbb;
+}
+
+.column-function {
+    background-color: #eceef1;
+    z-index: 3;
+}
+
+.m-input-form {
+    height: 32px;
+    border: 1px solid #babec5;
+    font-size: 13px;
+    outline: none;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+
+.m-btn-form {
+    border: 1px solid #babec5;
+    border-radius: 2px;
+}
+
+.m-radio {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    margin-left: 16px;
+}
+
+.m-hidden {
+    display: none;
+}
